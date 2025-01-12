@@ -1,42 +1,41 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 a{
-    text-decoration: none;
+text-decoration: none;
 }
 ul{
-    list-style: none;
+list-style: none;
 }
 .nav{ 
-    background: #3e8989;
- padding: 37px 167px;
+background: #3e8989;
+padding: 37px 167px;
 }
 .container{
-   max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
+max-width: 1100px;
+width: 100%;
+margin: 0 auto;
 }
 .nav__list-link,
 .footer__list{
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 color: #fff;    
 }
 .nav__content
 {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    
+display: flex;
+justify-content: space-between;
+align-items:center;  
 }
 .nav__list{
-    display: flex;
-    gap: 30px;
+display: flex;
+gap: 30px;
 }
 .form{
-    display: flex;
+display: flex;
 }
 .form input{
 font-size: 16px;
@@ -62,37 +61,31 @@ outline: none;
 border: none;
 }
 .priview{
-    min-height: 800px;
-    background: url('../images/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column;
-
+min-height: 800px;
+background: url('../images/bg.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center; 
+flex-direction: column;
 }
 .priview__title{
-    font-weight: 600;
-    font-size: 80px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-   
+font-weight: 600;
+font-size: 80px;
+color: #fff;
+display: flex;
+justify-content: center;
 }
-
-    .priview__descr
-    {
-        font-weight: 500;
+.priview__descr{
+font-weight: 500;
 font-size: 40px;
 color: #fff;
 padding-top: 20px;
-
-    }
-
+}
 .priview__list{
-    font-weight: 600;
+font-weight: 600;
 font-size: 18px;
 color: #fff;
 padding: 14px 77px;
@@ -103,10 +96,10 @@ background: #b4436c;
 margin-top: 50px;
 }
 .info__content{
-    margin-top: 80px;
+margin-top: 80px;
 }
 .info__paxicion{
-    width: 545px;
+width: 545px;
 height: 188px;
 display: flex; 
 justify-content: flex-start;
@@ -119,42 +112,40 @@ margin-bottom: 64px;
 
 }
 .info__pazishion{
-    display: flex;
-    flex-direction: row-reverse;
-   flex-wrap: wrap-reverse;
-   flex-direction: row;
+display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap-reverse;
+flex-direction: row;
 }
 
 .info__title,
 .box__naim
 {
-    font-weight: 600;
-    font-size: 40px;
-    color: #3e8989;
+font-weight: 600;
+font-size: 40px;
+color: #3e8989;
 text-align: center;
 padding-bottom: 50px;
 
 }
 .info__list{
-    font-weight: 400;
+font-weight: 400;
 font-size: 18px;
 color: #000;
 
 }
 .info__list-text{
-    display: flex;
-    justify-content: center;
-    flex-direction: column-reverse;
-  
+display: flex;
+justify-content: center;
+flex-direction: column-reverse;
 }
-
 .box{
 margin-top: 97px;
 height: 460px;
 }    
 .box__item{
-    display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 .photo__imag-Сlothes,
 .photo__imag-Shoes,
@@ -163,16 +154,14 @@ height: 460px;
     width: 263px;
 height: 300px;
 background: #efefef;
-
 }
-
 .tovara__title
 {font-weight: 600;
-    font-size: 24px;
-    color: #000;
+font-size: 24px;
+color: #000;
 }
-   .rong{
-    display: flex;
+.rong{
+ display: flex;
 gap: 20px;
 }
 .photo__imag-Сlothes{
@@ -182,100 +171,89 @@ gap: 20px;
 padding: 77px 22px;
 }
 .photo__imag-Tents{
-    padding: 75px 1px;
+padding: 75px 1px;
 }
 .photo__imag-Backpacks{
-    padding: 19px 0;
+padding: 19px 0;
 }
 .tovara__title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 }
 .box-Сlothes{
-     padding-top: 30px;
-     }
-
+padding-top: 30px;
+}
 .box-Shoes{
-    padding-top: 108px;
-  
-    color: #b4436c;
+padding-top: 108px;
+color: #b4436c;
 }
 .box-Tents{
-    padding-top: 105px;
-
+padding-top: 105px;
 }
 .box-Backpacks{
-    padding-top:49px ;
+padding-top:49px ;
 }
-
 .contacts{
-  
 min-height: 166px;
 margin-top: 100px;
-
 }
-
 .contacts__item{
-    display:flex ;
+display:flex ;
 justify-content: space-between;
 align-items: flex-start;
 flex-direction:column ;
 }
 .contacts__title{  
-    font-weight: 600;
-    font-size: 40px;
-    color: #3e8989;
-
-    
+font-weight: 600;
+font-size: 40px;
+color: #3e8989;
 }
 .contacts__info{
-    font-weight: 400;
+font-weight: 400;
 font-size: 20px;
 color: #000;
 width: 555px;
 height: 48px;
 padding-top: 40px;
-
 }
 .cont{
-    display:flex ;
-    justify-content: space-around;
-    align-items: flex-end;
-    flex-direction:column ;
-    padding-left: 950px;
-    gap: 20px;
-    
- 
+display:flex ;
+justify-content: space-around;
+align-items: flex-end;
+flex-direction:column ;
+padding-left: 950px;
+gap: 20px;
 }
 .contacts__list{
-    font-weight: 400;
-    font-size: 20px;
-    color: #000;
+font-weight: 400;
+font-size: 20px;
+color: #000;
 }
-
 .footer{
    background: #3e8989;
-
 margin-top: 100px;
+padding-top: 40px;
+padding-bottom: 15px;
+}
+.footer__content{
 display: flex;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 flex-direction: column;
-
+gap: 59px;
 }
 
 .footer__list-link{
-    display: flex;
-    font-weight: 400;
+display: flex;
+font-weight: 400;
 font-size: 14px;
 color: #fff;
-padding-bottom: 15px;
 gap: 6px;   
 }
 .footer__stail{
-    width: 261px;
+width: 261px;
 height: 19px;   
 display: flex;
 justify-content: center;
